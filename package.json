@@ -5,16 +5,12 @@
   "main": "app.js",
   "dependencies": {
     "express": "^4.17.1",
-    "helmet": "^3.23.3",
-    "react-scripts": "^3.4.1"
+    "helmet": "^3.23.3"
+  }, 
+  "scripts": {
+  "start": "node app.js"
   },
   "devDependencies": {},
-  "scripts": {
-    "start": "react-scripts start",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "gcloud app deploy"
-  },
   "author": "",
   "license": "ISC"
 }
